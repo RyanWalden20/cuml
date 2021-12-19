@@ -114,7 +114,8 @@ _metrics_mapping = {
     'manhattan': DistanceType.L1,
     'l2': DistanceType.L2SqrtExpanded,
     'euclidean': DistanceType.L2SqrtExpanded,
-    'cosine': DistanceType.CosineExpanded
+    'cosine': DistanceType.CosineExpanded,
+    'precomputed': DistanceType.Precomputed,
 }
 
 
